@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* common styles  */
+.body{
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #3AA6B9;
+    border: 0;
+    color: #ffff;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+/* header section start */
+.header{
+    background-color: #FFD0D0;
+    height: 80vh;
+}
+.Banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 150px;
+    align-items: center;
+}
+.Banner-Title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.Banner-Decription{
+    color: #575656;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.Profile-Pic{
+    width: 400px;
+    margin-top: 38px;
+    margin-right: 35px;
+}
+/* header section end */
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* our-flowers section start */
+.section-info{
+    text-align: center;
+    padding-top: 80px;
+}
+.section-title{
+    font-size: 30px;
+}
+.section-decription{
+    padding-top: 15px;
+    color: #757575;
+}
+.box-1{
+    background-color: #A0C49D;
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+.box-2{
+    background-color: #feffbe;
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+    
+}
+.box-3{
+    background-color: #A0C49D;
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.image{
+    height: 280px;
+    width: 150px;
+    margin-left: 48px;
+    margin-top: 20px;
+}
+.image-2{
+    height: 280px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.image-3{
+    height: 250px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 49px;
+}
+.disabled-a{
+    pointer-events: none;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.all-boxs{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: 150px;
+    align-items: center;
+    
+}
+/* our-flowers section end */
+
+/* footer section styles start  */
+.footer-section{
+    display: flex;
+    text-align: center;
+    background-color: rgb(38, 37, 37);
+    color: #ffff;
+    padding: 20px 20px 0 120px;
+    height: 200px;
+}
+.footer-text{
+    color: #FF9EAA;
+}
+.footer-title{
+    padding-left: 390px;
+    padding-bottom: 20px
+}
+/* footer section styles end  */
