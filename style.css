@@ -132,10 +132,12 @@ main{
 }
 .instr-title{
     text-align: center;
+    font-size: 30px;
 }
 .instr-decription{
     text-align: center;
     color: #757575;
+    font-size: 16px;
 }
 .instr-image{
     display: inline;
@@ -145,6 +147,59 @@ main{
     padding-bottom: 50px ;
 }
 /* instragram section styles end */
+
+/* Get The section styles start */
+
+.get-info{
+    background-color: #FFD0D0;
+    /* background-image: url('../Images/Rectangle 9.png'); */
+    text-align: center;
+    padding: 20px 20px 0 120px;
+    padding-bottom: 50px ;
+    padding-left: 25px;
+    height: 150px;
+    /* padding-right: 10px; */
+}
+.get-btn-primary{
+    border-radius: 5px;
+    background-color: #3AA6B9;
+    border: 0;
+    color: #ffff;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+.get-contant{
+    font-size: 10px;
+    color: #757575;
+    padding-right: 15px;
+}
+.get-title{
+    padding-right: 15px;
+}
+.get-mail{
+    border-radius: 5px;
+    padding: 7px 150px;
+    border: 0;
+    font-size: 8px;
+    
+}
+/* Get The section styles end */
+
+/* client review section styles start  */
+.client-title{
+    text-align: center;
+    font-size: 30px;
+}
+.client-img{
+    height: 250px;
+    width: 200px;
+    padding-left: 480px;
+}
+.client-text{
+    text-align: center;
+}
+/* client review section styles end */
+
 
 /* footer section styles start  */
 .footer-section{
@@ -157,6 +212,7 @@ main{
 }
 .footer-text{
     color: #FF9EAA;
+
 }
 .footer-title{
     padding-left: 390px;
