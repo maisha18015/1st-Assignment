@@ -123,6 +123,29 @@ main{
 }
 /* our-flowers section end */
 
+/* instragram section styles start */
+.instr-section{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0 130px;
+    margin: 0 130px;
+}
+.instr-title{
+    text-align: center;
+}
+.instr-decription{
+    text-align: center;
+    color: #757575;
+}
+.instr-image{
+    display: inline;
+    height: 200px;
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    padding-bottom: 50px ;
+}
+/* instragram section styles end */
+
 /* footer section styles start  */
 .footer-section{
     display: flex;
